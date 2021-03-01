@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form>
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Health Rate</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</form>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            BeeController.init();
+        })
+    </script>
+}
